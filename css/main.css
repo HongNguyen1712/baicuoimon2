@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body{padding: 0;margin: 0;}
+#main{width: 100%; height:2500px; }
+.slider1{width: 100%; height: 960px;background-image:url("../images/forest-web.jpg");background-size: cover; padding: 0 100px;box-sizing: border-box;}
+.header{width: 100%; height: 110px; display: flex;}
+.logo{width: 30%; height: 110px;padding: 5px 10px;box-sizing: border-box; }
+.menu{width: 70%; height: 110px;padding: 10px 100px;box-sizing: border-box; }
+.menu ul{list-style: none;display: flex;justify-content:space-around;}
+.menu ul li{color:aliceblue;}
+.menu ul li:hover {border-bottom: 2px solid; border-color:aliceblue; }
+.menu ul li a {text-decoration: none;color: aliceblue;}
+.title{width: 100%; height: 850px;box-sizing: border-box;padding: 300px 100px 300px 800px; color: aliceblue; }
+.title button{width: 180px; height: 40px; border-radius: 50px;background-color: none;border: #FFFBFB}
+.title button a {text-decoration: none;color: #000000;}
+.title button:hover{background-color:lightgreen;}
+
+.slider2{width: 100%;height: 600px;background-color:aliceblue;box-sizing: border-box;padding:5px ; text-align: center;}
+.diemden{width: 100%;height: 500px; display: flex;justify-content: space-around;}
+.diemden1{width: 20%;height: 200px; padding: 40px 0;}
+.diemden1 img {width: 100%;}
+.slider2 h2 a {text-decoration: none; color:#020202;}
+.slider2 h2 a:hover{border-bottom: 2px solid;border-color: coral;}
+.diemden2{width: 20%;height: 200px; padding: 40px 0;}
+.diemden3{width: 20%;height: 200px; padding: 40px 0;}
+.diemden4{width: 20%;height: 200px; padding: 40px 0;}
+.diemden1{color:darkorange;}.diemden1 h2 {color:#090909;}
+.diemden2{color:darkorange;}.diemden2 h2 {color:#090909;}
+.diemden3{color:darkorange;}.diemden3 h2 {color:#090909;}
+.diemden4{color:darkorange;}.diemden4 h2 {color:#090909;}
+.slider3{width: 100%;height: 600px;background-color: aliceblue; display: flex;justify-content: space-around; padding: 30px; box-sizing: border-box;}
+.muclon1{width: 48% ;height:500px;background-image:url("../images/HalongBayVietnam_GettyImages_493-1602064398722.jpg");background-size: cover; }
+.muclon2{width: 48% ;height:500px;display: flex; flex-wrap: wrap;align-content: space-between;}
+.mucnho1{width: 100% ;height:235px;background-image: url("../images/1-104.jpg");background-size:cover;}
+.mucnho1 h1 {color:#FB5905;padding: 50px 200px 150px 150px;}
+.mucnho2{width: 100% ;height:235px;background-image: url("../images/quan-the-trang-an.jpg.jpg");background-size: cover;}
+.mucnho2 h1 {color:#FB5905;padding: 30px 200px 20px 150px; }
+.muclon1 h1 {padding:50px 200px 150px 150px;color:#FB5905}
+.slider4{width: 100%;height: 300px; background-color:aliceblue;text-align: center; box-sizing: border-box;}
+.slider4 h1 {margin: 0;}
+.slider4 ul {display: flex;justify-content: center; padding-left: 0}
+.slider4 ul li {list-style: none;}
+.slider4 form input { width: 300px; height: 45px; }
